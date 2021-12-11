@@ -50,6 +50,14 @@
             width: 110px;
         } 
 
+        .menu{
+            transition: all 0.5s;
+        }
+
+        .menu:hover{
+            background-color: #f3e500;
+        }
+
     /* estilos inicio */
         #inicio{
             background-image: url(assets/img/principal.jpg);
