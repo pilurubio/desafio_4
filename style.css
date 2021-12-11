@@ -82,7 +82,7 @@
             color: rgb(250,250,250, 0.8);
             text-align: center;
         } 
-
+         
         .destacado{
             font-family: 'Montserrat';
             font-weight: 200;
@@ -132,6 +132,15 @@
 
         .foto-guia{
             width: 100%;
+            filter: grayscale(100%);
+            opacity: 80%;
+            transition: all 1s;
+        }
+        
+        .foto-guia:hover{
+            filter: grayscale(0%);
+            opacity: 100%;
+            transform: scale(1.05);
         }
 
         h2{
