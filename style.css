@@ -208,6 +208,14 @@
             margin-left: 15px;
         }
 
+        .menu-footer{
+            transition: all 0.5s;
+        }
+
+        .menu-footer:hover{
+            color:#131e29;
+            background-color: rgb(250, 250, 250);
+        }
 
 /* APLICACIÓN DE MEDIA QUERIES */
 
